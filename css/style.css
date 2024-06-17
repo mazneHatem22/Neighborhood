@@ -1,0 +1,930 @@
+.first-header {
+    background-color: #252525;
+    color: white;
+    height: 40px;
+    width: 100%;
+
+}
+
+.first-header p {
+    color: #999999;
+    font-size: 11px;
+}
+
+.premier {
+    margin-top: 10px;
+
+}
+
+.first-header ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.left-header {
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+}
+
+.shopper a {
+    text-decoration: none;
+    color: black;
+}
+
+.shopper a:hover {
+    color: #1bbeb4;
+}
+
+.welcome:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: 80px;
+    background-color: #e4e4e4;
+}
+
+.right-header {
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown .dropdown-toggle,
+.shop {
+    border: none;
+}
+
+.dropdown .dropdown-toggle:hover {
+    color: #1bbeb4;
+}
+
+.dropdown:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: 100px;
+    margin: 8px;
+    background-color: #e4e4e4;
+}
+
+.login {
+    margin: 8px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.login a:hover {
+    color: #1bbeb4;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item2,
+.dropdown-item3 {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.dropdown-item3 {
+    background-color: #ccc;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.dropdown-item3:hover {
+    background-color: #1bbeb4;
+    color: white;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search .dropdown::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    left: -12px;
+    margin: 8px;
+    background-color: #e4e4e4;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #1bbeb4;
+}
+
+.btn:hover {
+    color: #1bbeb4;
+}
+
+.icon-search:hover {
+    color: #1bbeb4;
+    cursor: pointer;
+}
+
+.slider {
+    background: url(http://neighborhood.swiftideas.com/wp-content/uploads/2015/06/nh_rev_update_slider_bkg.jpg) no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+}
+
+.slider2 {
+    background: url(http://neighborhood.swiftideas.com/wp-content/uploads/2013/06/nh_rev_slider_bkg.png) no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.slider3 {
+    background: url(http://neighborhood.swiftideas.com/wp-content/uploads/2013/06/nh_rev_slider_bkg_tiny_grid.png) no-repeat center center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.text-slider,
+.text2-slider {
+    margin-top: 125px;
+}
+
+.now {
+    top: 40%;
+    left: 33%;
+    position: absolute;
+}
+
+.now h1 {
+    font-size: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.btn-slider button {
+    width: 200px;
+}
+
+.owl-carousel .owl-item .mobile {
+    display: block;
+    width: 80%;
+    position: relative;
+}
+
+.owl-carousel .owl-item .mobile2 {
+    display: block;
+    width: 12%;
+}
+
+.mobile2 {
+    position: absolute;
+    top: 48%;
+    right: 12%;
+}
+
+.first-slider .owl-next {
+    position: absolute;
+    right: 3%;
+    top: 47%;
+    width: 40px;
+    height: 40px;
+}
+
+.first-slider .owl-prev {
+    position: absolute;
+    left: 3%;
+    top: 47%;
+    width: 40px;
+    height: 40px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background-color: #869791;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background-color: #869791;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+}
+
+.latest-text {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.latest-text::before {
+    content: "";
+    position: absolute;
+    display: block;
+    border-top: 2px solid #444;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    z-index: 1;
+}
+
+.latest-text h4,
+.latest-text h6 {
+    background-color: #FFF;
+    padding: 0 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.shop-group {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 6px -7px #999;
+    height: 345px;
+}
+
+.shop-group .img1,
+.shop-group .img2 {
+    transition: transform .5s ease-in-out;
+}
+
+.shop-group:hover .img1 {
+    transform: translateY(-370px);
+}
+
+.shop-group:hover .img2 {
+    transform: translateY(-370px);
+}
+
+.shop-group .add-to-cart {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #252525;
+    color: #FFF;
+    padding: 5px 10px;
+    transition: transform .3s ease-in-out;
+    transform: translateY(40px);
+}
+
+.shop-group:hover .add-to-cart {
+    transform: translateY(0px);
+}
+
+.prices h6,
+.prices span {
+    font-size: 13px;
+}
+
+.sneakers {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.first-product .owl-next {
+    position: absolute;
+    right: -47px;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.first-product .owl-prev {
+    position: absolute;
+    left: -47px;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.first-product {
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+
+    .header .left-header,
+    .shop-word {
+        display: none;
+    }
+
+    .shop-group:hover .img2 {
+        transform: translateY(-460px);
+    }
+
+    .fashion .item {
+        margin-top: 30px;
+    }
+
+    .feature-img ul li {
+        padding: 30px;
+    }
+
+    .input .fa-envelope {
+        transform: translateX(80px);
+    }
+
+    .now {
+       transform: translateX(-60px);
+    }
+    .photo-slider{
+        transform: translateY(111px);
+    }
+    .text-slider h2{
+        font-size: 20px;
+
+    }
+    .photo2-slider .mobile{
+        transform: translateY(200px);
+    }
+    .photo2-slider .mobile2{
+        transform: translateY(109px);
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    .shop-group:hover .img2 {
+        transform: translateY(-560px);
+    }
+
+    .shop-group:hover .img1 {
+        transform: translateY(-560px);
+    }
+
+    .shop-group {
+
+        height: 410px;
+    }
+
+    .input .fa-envelope {
+        transform: translateX(100px);
+    }
+
+    .text-premier p {
+        font-size: 9px;
+    }
+    .text-slider h2{
+        font-size: 11px;
+    }
+    .text-slider h2{
+        font-size: 11px;
+    }
+    .text-slider h5{
+        font-size: 10px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .now h1{
+        font-size: 35px;
+        
+     }
+     .text2-slider h1{
+        font-size: 15px;
+     }
+     .text2-slider h5{
+        font-size: 10px;
+     }
+     .text2-slider button{
+        width: 100%;
+     }
+     .photo2-slider .mobile{
+        transform: translateY(135px);
+    }
+    .photo2-slider .mobile2{
+        transform: translateY(-18px);
+    }
+
+
+}
+
+.offer {
+    background-image: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/nhood_impact_bkg.png);
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 60px;
+}
+
+.offer a .fa-chevron-right {
+    color: #666666;
+}
+
+.offer a .fa-chevron-right:hover {
+    color: #1bbeb4;
+}
+
+.the-prices img {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 5px 6px -4px #999;
+}
+
+.shopping-text a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.shopping-text {
+
+    font-size: 13px;
+}
+
+.star-icon {
+    color: #1bbeb4;
+}
+
+.picks {
+    overflow: hidden;
+}
+
+.picks img {
+    transition: transform .5s ease-in-out;
+}
+
+.picks img:hover {
+    transform: scale(1.3);
+}
+
+.shopping-text a:hover {
+    color: #1bbeb4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Latest-articles-text {
+    font-size: 13px;
+}
+
+.Latest-articles-text a {
+    color: black;
+    font-size: 16px;
+
+}
+
+.Latest-articles-text span a {
+    color: #666666;
+    font-size: 13px;
+
+}
+
+.Latest-articles-text a:hover {
+    color: #1bbeb4;
+
+}
+
+.first-Latest .owl-next {
+    position: absolute;
+    right: -45px;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.first-Latest .owl-prev {
+    position: absolute;
+    left: -45px;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.first-Latest {
+    overflow: hidden;
+}
+
+.Latest-Tweet {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/ff_rp_bkg2.png) repeat top center;
+    background-size: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-Tweet::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+.woo-icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.woo-text {
+    color: #3a3d41;
+}
+
+.woo-text a {
+    color: #969696;
+}
+
+.woo-text a:hover {
+    color: #1bbeb4;
+}
+
+.first-tweet .owl-next {
+    position: absolute;
+    right: 14px;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.first-tweet .owl-prev {
+    position: absolute;
+    left: 14px;
+    top: 30%;
+    width: 40px;
+    height: 40px;
+}
+
+.first-tweet .owl-nav button.owl-next {
+    background-color: #869791;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    display: none;
+}
+
+.first-tweet .owl-nav button.owl-prev {
+    background-color: #869791;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border-radius: 50%;
+    display: none;
+}
+
+.footer {
+    background-color: #252525;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+.latest-text .post {
+    background-color: #252525;
+    padding: 0 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.footer-text {
+    font-size: 13px;
+}
+
+.our-story a {
+    color: white;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+}
+
+.contact-story a {
+    color: white;
+}
+
+.our-story a:hover,
+.contact-story a:hover {
+    color: #1bbeb4;
+}
+
+.icon-footer {
+    font-size: 22px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 20px;
+}
+
+.enter {
+    width: 100%;
+}
+
+.input .fa-envelope {
+    position: absolute;
+    color: #999999;
+    margin-top: 8px;
+    right: 127px;
+    font-size: 16px;
+}
+
+.footer-second {
+    background-color: black;
+    width: 100%;
+}
+
+.footer-second a {
+    color: white;
+}
+
+.footer-second a:hover {
+    color: #1bbeb4;
+}
+
+.footer-second p {
+    color: #666666;
+    font-size: 11px;
+    margin: 15px;
+}
+
+.up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: #1bbeb4;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+
+.page-two {
+    background: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/ff_rp_bkg2.png) repeat center top;
+    background-size: auto;
+    width: 100%;
+    height: 80px;
+    box-shadow: 10px 1px 5px -1px rgba(0, 0, 0, .2);
+}
+
+.shop-word {
+    padding: 5px 5px;
+    background-color: #FFF;
+    font-size: 11px;
+    color: #999999;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+    height: 50%;
+}
+
+.shop-word a {
+    color: #999999;
+}
+
+.shop-word a:hover {
+    color: #1bbeb4;
+}
+
+select {
+    border-color: #e4e4e4;
+    background: #f7f7f7;
+    font-size: 15px;
+}
+
+.sale-fashion {
+    position: absolute;
+    right: -31px;
+    padding: 4px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    overflow: hidden;
+    transform: rotate(45deg);
+    z-index: 1;
+    top: 16px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.stock-fashion {
+    position: absolute;
+    right: -31px;
+    padding: 4px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    overflow: hidden;
+    transform: rotate(45deg);
+    z-index: 4;
+    top: 16px;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+.fashion-show .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.top {
+    margin-top: 80px;
+}
+
+.mission::after,
+.services::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    transform: translate(-50%);
+
+}
+
+.mission h3 {
+    color: black;
+}
+
+.services-group {
+    background-image: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/tiny_grid.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.box {
+    position: relative;
+}
+
+.box .circle-chart {
+    width: 197px;
+    height: 164px;
+}
+
+.box .fa-eye,
+.fa-bullhorn,
+.fa-sitemap,
+.fa-truck,
+.fa-camera,
+.fa-list-check {
+    position: absolute;
+    top: 16%;
+    left: 44%;
+    font-size: 38px;
+}
+
+.box .box-content h4 {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.box .box-content p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.box .box-content span {
+    color: #1bbeb4;
+}
+
+.success-stroke {
+    stroke: #1bbeb4;
+}
+
+.feature {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.feature-img ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.our-text .lorem {
+    font-size: 13px;
+}
+
+.our-text::after {
+    content: "";
+    position: absolute;
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+}
+
+.team-icon {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.our-text a {
+    color: black;
+}
+
+.our-text a:hover {
+    color: #1bbeb4;
+}
+
+.our-email {
+    color: #1bbeb4;
+}
+
+.our-email a {
+    color: #1bbeb4;
+}
+
+.our-email a:hover {
+    color: black;
+}
+
+.our-group img {
+    width: 100%;
+}
+
+.form-control {
+    background-color: #f7f7f7;
+}
+
+.send-button {
+    background-color: #1bbeb4;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 14px;
+    background-image: url(../images/button-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 74px;
+    padding: 9px;
+    width: 90px;
+    transition: 0.5s ease;
+
+}
+
+.send-button:hover,
+.skype-text button:hover {
+    border-radius: 0;
+}
+
+.skype-text button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    padding: 13px;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+.skype-text p {
+    font-size: 14px;
+}
